@@ -1,0 +1,11 @@
+uid: UR-0001
+type: user_requirement
+status: approved
+title: Review techniques
+text: Passive, examination-based techniques that assess systems, applications, networks, policies and
+  procedures without actively exercising the target.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: NIST SP 800-115 §3

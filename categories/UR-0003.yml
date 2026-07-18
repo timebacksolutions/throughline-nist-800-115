@@ -1,0 +1,11 @@
+uid: UR-0003
+type: user_requirement
+status: approved
+title: Target vulnerability validation techniques
+text: Techniques that actively confirm the existence of vulnerabilities by attempting to exploit them,
+  corroborating findings from earlier phases.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: NIST SP 800-115 §5

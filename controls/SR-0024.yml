@@ -1,0 +1,11 @@
+uid: SR-0024
+type: system_requirement
+status: approved
+title: Report findings with risk-based recommendations
+text: Produce a report that communicates findings, their risk, and prioritised, actionable recommendations
+  for both technical and management audiences.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §8.2

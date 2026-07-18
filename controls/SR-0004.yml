@@ -1,0 +1,11 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: System configuration review
+text: Examine device and host configurations against secure baselines to find weak settings and unnecessary
+  services.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §3.4

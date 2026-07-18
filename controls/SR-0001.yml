@@ -1,0 +1,11 @@
+uid: SR-0001
+type: system_requirement
+status: approved
+title: Documentation review
+text: Examine security policies, plans, architectures, procedures and other documentation to check completeness,
+  currency and consistency with requirements.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §3.1

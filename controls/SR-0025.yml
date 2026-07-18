@@ -1,0 +1,10 @@
+uid: SR-0025
+type: system_requirement
+status: approved
+title: Remediate and track mitigation
+text: Feed findings into a remediation process that mitigates the weaknesses and tracks them to closure.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §8.3

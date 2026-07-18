@@ -1,0 +1,11 @@
+uid: SR-0010
+type: system_requirement
+status: approved
+title: Wireless scanning
+text: Discover and assess wireless networks and devices, including rogue access points and weak wireless
+  configurations.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §4.4

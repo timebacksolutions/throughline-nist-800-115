@@ -1,0 +1,11 @@
+uid: UR-0005
+type: user_requirement
+status: approved
+title: Security assessment execution
+text: Coordinating and carrying out the assessment, analysing results to identify vulnerabilities, and
+  handling assessment data securely.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: NIST SP 800-115 §7

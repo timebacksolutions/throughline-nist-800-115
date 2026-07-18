@@ -1,0 +1,11 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: Security assessment planning
+text: Establishing the policy, priorities, approach, rules of engagement and legal basis for an assessment
+  before any testing begins.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: NIST SP 800-115 §6

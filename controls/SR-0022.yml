@@ -1,0 +1,11 @@
+uid: SR-0022
+type: system_requirement
+status: approved
+title: Handle assessment data securely
+text: Protect the collection, transmission, storage and disposal of assessment data, which is highly sensitive
+  if disclosed.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §7.4

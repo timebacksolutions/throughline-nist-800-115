@@ -1,0 +1,11 @@
+uid: SR-0019
+type: system_requirement
+status: approved
+title: Coordinate the assessment with stakeholders
+text: Coordinate logistics, access and communication with system owners and operations staff so the assessment
+  runs safely.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §7.1

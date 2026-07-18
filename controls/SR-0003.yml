@@ -1,0 +1,11 @@
+uid: SR-0003
+type: system_requirement
+status: approved
+title: Ruleset review
+text: Examine firewall, router and IDS/IPS rulesets for gaps, overly permissive rules and inconsistencies
+  with policy.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §3.3

@@ -1,0 +1,11 @@
+uid: SR-0009
+type: system_requirement
+status: approved
+title: Vulnerability scanning
+text: Use automated scanners to identify known vulnerabilities and misconfigurations on hosts and services,
+  and to inform later validation.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §4.3

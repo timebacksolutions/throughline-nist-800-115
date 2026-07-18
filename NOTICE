@@ -1,0 +1,19 @@
+throughline-nist-800-115
+Copyright 2026 Time Back Solutions Limited
+
+This product includes work developed by Time Back Solutions Limited.
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file for the
+full terms.
+
+This repository is a throughline *source*: a requirements graph, not a program. It
+expresses NIST Special Publication 800-115, "Technical Guide to Information Security Testing
+and Assessment", as a grounded IDD graph so consuming projects can compose it with
+throughline-compose.
+
+NIST SP 800-115 is a publication of the U.S. National Institute of Standards and Technology
+and is a work of the U.S. federal government; as such it is in the public domain in the
+United States and may be freely reproduced and derived. The content restated here is derived
+from that publication; each item's attrs.source_ref cites the relevant section. NIST does not
+endorse this repository. The authoritative document is available from NIST at
+https://csrc.nist.gov/pubs/sp/800/115/final.

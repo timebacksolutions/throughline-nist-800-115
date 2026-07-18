@@ -1,0 +1,11 @@
+uid: SR-0002
+type: system_requirement
+status: approved
+title: Log review
+text: Examine system, application and security logs to validate that controls are recording events correctly
+  and to detect anomalies and policy deviations.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §3.2

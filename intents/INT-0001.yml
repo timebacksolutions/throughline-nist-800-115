@@ -1,0 +1,11 @@
+uid: INT-0001
+type: intent
+status: approved
+title: Information security can be assessed with repeatable technical methods
+text: NIST SP 800-115 exists so that an organisation can plan and perform technical information security
+  testing and assessment in a repeatable, methodical way — using recognised review, identification and
+  validation techniques within a disciplined planning, execution and post-testing process — rather than
+  ad-hoc security checks.
+normative: false
+attrs:
+  source_ref: NIST SP 800-115

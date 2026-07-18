@@ -1,0 +1,11 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: Network port and service identification
+text: Scan for open ports and identify the services and versions listening on them to build an attack
+  surface picture.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §4.2

@@ -1,0 +1,11 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: Penetration testing
+text: Attempt to exploit identified vulnerabilities in a controlled way, following the planning, discovery,
+  attack and reporting phases, to demonstrate real-world impact.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §5.2

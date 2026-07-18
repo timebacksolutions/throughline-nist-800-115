@@ -1,0 +1,11 @@
+uid: SR-0016
+type: system_requirement
+status: approved
+title: Select the assessment approach and objectives
+text: Choose the techniques and depth appropriate to the objectives, constraints and risk of the target,
+  and document them in an assessment plan.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §6.3

@@ -1,0 +1,11 @@
+uid: SR-0006
+type: system_requirement
+status: approved
+title: File integrity checking
+text: Compare file checksums against a known-good baseline to detect unauthorised changes to critical
+  files.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §3.6

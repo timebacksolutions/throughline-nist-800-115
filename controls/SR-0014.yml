@@ -1,0 +1,11 @@
+uid: SR-0014
+type: system_requirement
+status: approved
+title: Establish an information security assessment policy
+text: Define an organisational policy that governs why, how and when assessments are performed, and who
+  is responsible.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §6.1

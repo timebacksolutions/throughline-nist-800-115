@@ -1,0 +1,11 @@
+uid: UR-0002
+type: user_requirement
+status: approved
+title: Target identification and analysis techniques
+text: Techniques that identify systems, ports, services and potential vulnerabilities, generally active
+  but not intended to exploit them.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: NIST SP 800-115 §4

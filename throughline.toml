@@ -1,0 +1,53 @@
+[project]
+name = "NIST SP 800-115 Information Security Testing (throughline source)"
+format_version = 2
+
+# A throughline *source*: a standalone graph a consuming project composes via
+# throughline-compose, importing it under a namespace (e.g. `nist800115`) and referencing
+# techniques/activities as `nist800115:SR-0001`. The UIDs here are this source's own and
+# immutable; the SP 800-115 section reference (e.g. "NIST SP 800-115 §5.2") lives in
+# `attrs.source_ref`, never in the UID.
+#
+# LICENCE. NIST SP 800-115 (Technical Guide to Information Security Testing and Assessment)
+# is a U.S. federal government publication and is in the public domain in the United States;
+# it may be freely reproduced and derived. Item text is a faithful restatement of the guide
+# with the section cited in attrs.source_ref. See NOTICE.
+
+[grounding]
+root_types = ["intent"]
+delivery_roots = ["intent"]
+ground_link_types = ["derives_from", "implements"]
+ai_origins = ["ai", "hybrid"]
+
+# The guide's technique categories and process phases are user_requirements; each technique
+# or activity is a system_requirement implementing its category/phase.
+[types.user_requirement]
+attrs.source_ref = { required = true }
+
+[types.system_requirement]
+attrs.source_ref = { required = true }
+
+[links]
+types = ["derives_from", "implements", "relates"]
+
+[link_rules]
+derives_from = { from = ["user_requirement"], to = ["intent"] }
+implements   = { from = ["system_requirement"], to = ["user_requirement"] }
+
+[status]
+values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented",
+          "verified", "suspect", "rejected", "deleted"]
+
+[transitions]
+proposed    = ["draft", "approved", "ratified", "deferred", "rejected", "deleted"]
+draft       = ["approved", "deferred", "rejected", "deleted"]
+deferred    = ["draft", "approved", "rejected", "deleted"]
+approved    = ["ratified", "implemented", "deferred", "suspect", "rejected", "deleted"]
+ratified    = ["implemented", "suspect", "rejected", "deleted"]
+implemented = ["verified", "suspect", "rejected", "deleted"]
+verified    = ["implemented", "suspect", "deleted"]
+suspect     = ["approved", "ratified", "implemented", "verified", "rejected", "deleted"]
+rejected    = ["draft", "deleted"]
+
+[docs]
+paths = ["docs/*.md", "README.md"]

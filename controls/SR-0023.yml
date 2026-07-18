@@ -1,0 +1,11 @@
+uid: SR-0023
+type: system_requirement
+status: approved
+title: Conduct root-cause analysis of findings
+text: Analyse the underlying causes of the identified vulnerabilities so mitigation addresses the source,
+  not just the symptom.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §8.1

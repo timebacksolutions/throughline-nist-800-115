@@ -1,0 +1,11 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: Prioritize and schedule assessments by risk
+text: Prioritise and schedule assessments according to system criticality and risk rather than assessing
+  everything equally.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §6.2

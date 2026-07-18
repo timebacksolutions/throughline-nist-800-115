@@ -1,0 +1,11 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: Post-testing activities
+text: 'Turning findings into action: root-cause analysis, reporting, and mitigation of the identified
+  weaknesses.'
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: NIST SP 800-115 §8

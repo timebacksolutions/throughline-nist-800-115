@@ -1,0 +1,11 @@
+uid: SR-0021
+type: system_requirement
+status: approved
+title: Analyze results to identify vulnerabilities
+text: Analyse and correlate findings from the techniques to identify, characterise and rate the vulnerabilities
+  present.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §7.3

@@ -1,0 +1,11 @@
+uid: SR-0013
+type: system_requirement
+status: approved
+title: Social engineering
+text: Test the human element by attempting to induce staff to reveal information or perform actions that
+  bypass technical controls.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: NIST SP 800-115 §5.3
