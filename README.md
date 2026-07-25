@@ -8,7 +8,7 @@ project imports it under a namespace and references a technique or activity by U
 # throughline.toml in a consuming project
 [[sources]]
 namespace = "nist800115"
-url = "https://github.com/timebacksolutions/throughline-nist-800-115"
+url = "https://github.com/rhodium-org/throughline-nist-800-115"
 ref = "v1"
 ```
 
